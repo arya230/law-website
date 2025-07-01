@@ -7,7 +7,7 @@ import '../App.css';
 const About: React.FC = () => {
   return (
     <div className='main-container'>
-        <Navbar />
+      <Navbar />
       <HeroSection />
     </div>
       
