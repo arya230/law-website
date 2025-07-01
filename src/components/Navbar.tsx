@@ -1,18 +1,31 @@
 import React from 'react';
 import logo from '../assets/logo.png';
 import '../index.css';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
     <nav>
-      <img src={logo} alt="Logo" />
+      <Link to="/">
+        <img src={logo} alt="Logo" />
+      </Link>
       <ul>
-        <li><a href="#">About</a></li>
+        <li><Link to="/">About</Link></li>
         <li className="dropdown">
           <a href="#">Practice Areas <span className="arrow">▼</span></a>
+          <ul className="dropdown-menu">
+            <li><a href="/IncomeTax">Income Tax</a></li>
+            <li><a href="#">Custom-trade-law</a></li>
+            <li><a href="#">GST Tax Law Firm</a></li>
+            <li><a href="#">Property Case</a></li>
+            <li><a href="#">Corporate Law</a></li>
+            <li><a href="#">Best CAT and Service Matters Lawyer</a></li>
+            <li><a href="#">Dispute Resolution | Arbitration - Law Firm</a></li>
+            <li><a href="#">IP Law</a></li>
+          </ul>
         </li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><Link to="/team">Team</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
       </ul>
     </nav>
   );
