@@ -3,6 +3,7 @@
   width: 100%;
   height: 85vh;
   overflow: hidden;
+  font-family: Arial, sans-serif;
 }
 
 .hero-image {
@@ -12,8 +13,8 @@
   display: block;
 }
 
-/* About Section */
 .about-section {
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,6 +90,7 @@
   height: 64px;
   margin-bottom: 1rem;
 }
+
 
 .practice-item p {
   font-weight: 600;

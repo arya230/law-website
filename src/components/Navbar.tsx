@@ -15,9 +15,9 @@ const Navbar: React.FC = () => {
           <a href="#">Practice Areas <span className="arrow">▼</span></a>
           <ul className="dropdown-menu">
             <li><a href="/IncomeTax">Income Tax</a></li>
-            <li><a href="#">Custom-trade-law</a></li>
-            <li><a href="#">GST Tax Law Firm</a></li>
-            <li><a href="#">Property Case</a></li>
+            <li><a href="/CustomTradeLaw">Custom-trade-law</a></li>
+            <li><a href="/gst">GST Tax Law Firm</a></li>
+            <li><a href="/property">Property Case</a></li>
             <li><a href="#">Corporate Law</a></li>
             <li><a href="#">Best CAT and Service Matters Lawyer</a></li>
             <li><a href="#">Dispute Resolution | Arbitration - Law Firm</a></li>
