@@ -7,6 +7,9 @@ import Income from './pages/practiceAreas/IncomeTax';
 import CustomTradeLaw from './pages/practiceAreas/CustomTradeLaw';
 import GSTTax from './pages/practiceAreas/GstTaxLawFirm';
 import Propertycase from './pages/practiceAreas/PropertyCase';
+import Corporate from './pages/practiceAreas/CorporateLaw';
+import ServiceMatter from './pages/practiceAreas/ServiceMatter';
+
 const App: React.FC = () => {
   return (
     <Router>
@@ -18,6 +21,8 @@ const App: React.FC = () => {
         <Route path="/CustomTradeLaw" element={<CustomTradeLaw />} />
         <Route path="/gst" element={<GSTTax />} />
         <Route path="/property" element={<Propertycase />} />
+        <Route path="/CorporateLaw" element={<Corporate />} />
+        <Route path="/ServiceMatter" element={<ServiceMatter />} />
       </Routes>
     </Router>
   );

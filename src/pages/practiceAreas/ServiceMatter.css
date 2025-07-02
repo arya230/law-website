@@ -1,0 +1,94 @@
+.service-wrapper {
+  margin-top: 4rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.service-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.service-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.service-image {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.service-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Bottom Section */
+.service-bottom-section {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 25rem;
+  margin-top: 3rem;
+}
+
+.bottom-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.bottom-text {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.bottom-list {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.bottom-list li {
+  margin-bottom: 0.75rem;
+}
+
+.bottom-highlight {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  color: #eee;
+}
+
+/* Footer reused */
+.law-footer {
+  text-align: center;
+  margin-top: 3rem;
+  /* margin-bottom: 1rem; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  border-top: 1px solid black;
+  background-color: black;
+  font-size: 0.875rem;
+}
+
