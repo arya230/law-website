@@ -18,8 +18,8 @@ const Navbar: React.FC = () => {
             <li><a href="/CustomTradeLaw">Custom-trade-law</a></li>
             <li><a href="/gst">GST Tax Law Firm</a></li>
             <li><a href="/property">Property Case</a></li>
-            <li><a href="#">Corporate Law</a></li>
-            <li><a href="#">Best CAT and Service Matters Lawyer</a></li>
+            <li><a href="/CorporateLaw">Corporate Law</a></li>
+            <li><a href="/ServiceMatter">Best CAT and Service Matters Lawyer</a></li>
             <li><a href="#">Dispute Resolution | Arbitration - Law Firm</a></li>
             <li><a href="#">IP Law</a></li>
           </ul>
